@@ -1,0 +1,76 @@
+* {
+    margin: 0pt;
+    padding: 0pt;
+}
+
+nav{
+    background-color: #FFFFFF;
+    height: 50px;
+}
+#topbar{
+    display: flex;
+    justify-content: start;
+
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    display: block;
+    /* Other styles here */
+}
+
+#yahoo{
+    background: url(yahoo-logo.jpg);
+    background-size: 100%;
+}
+#subbar{
+    border-bottom: black;
+    border-bottom-style: solid;
+    border: 1px
+}
+
+input{
+    padding-left: 25px;
+    font-size: 23px;
+    font-weight: bold;
+    flex-grow: 8;
+    border-radius: 0%;
+    border-style: none;
+}
+input[type=text]:focus {
+    outline: none;
+  }
+
+::placeholder{
+    font-size: 25px;
+    opacity: .5;
+}
+#username{
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 15px ;
+    font-size: 13px;
+    font-weight: bold;
+}
+#userimage{
+    /* background: url(mike.jpg); */
+    /* background-size: 100%; */
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 5px;
+    /* background-position: 25% center; */
+    /* background-repeat: no-repeat;  */
+
+}
+
+
+body {
+    background: url(isaac-quesada-QjaBfogTXqE-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+  }
