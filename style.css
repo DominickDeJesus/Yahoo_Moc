@@ -2,15 +2,42 @@
     margin: 0pt;
     padding: 0pt;
 }
-
+html{
+    height: 100%;
+}
 nav{
     background-color: #FFFFFF;
     height: 50px;
 }
+
+body {
+    background: url(isaac-quesada-QjaBfogTXqE-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+footer{
+    color: white;
+    font-size: smaller;
+ 
+    /* display: flex; */
+    position: absolute;
+    bottom: 25px;
+    right: 35px;
+}
+
+footer div{
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+
 #topbar{
     display: flex;
     justify-content: start;
-
 }
 
 .icon {
@@ -104,10 +131,3 @@ div a:not(:first-child):before {
     font-weight: lighter;
     color: white;
 }
-body {
-    background: url(isaac-quesada-QjaBfogTXqE-unsplash.jpg) no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
-    font-family: 'Open Sans', sans-serif;
-  }
