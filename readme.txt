@@ -1,1 +1,0 @@
-This is a moc website of the yahoo momentum webpage. 
